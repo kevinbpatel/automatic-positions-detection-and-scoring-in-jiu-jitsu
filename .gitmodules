@@ -1,0 +1,6 @@
+[submodule "ViTPose"]
+	path = ViTPose
+	url = https://github.com/ViTAE-Transformer/ViTPose.git
+[submodule "mmcv"]
+	path = mmcv
+	url = https://github.com/open-mmlab/mmcv.git
