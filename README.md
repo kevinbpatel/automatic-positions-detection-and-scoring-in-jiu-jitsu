@@ -1,9 +1,9 @@
 # Video-Based Detection of Combat Positions and Automatic Scoring in Jiu-jitsu
 
-This is my unoficial implementation of our [paper](https://dl.acm.org/doi/10.1145/3552437.3555707).
+This is my unofficial implementation of our [paper](https://dl.acm.org/doi/10.1145/3552437.3555707).
 
 ## Installation
-Please refer to the original [ViTPose repository](https://github.com/ViTAE-Transformer/ViTPose) for more details (specifically issue [#97](https://github.com/ViTAE-Transformer/ViTPose/issues/97)).
+For help please refer to the original [ViTPose repository](https://github.com/ViTAE-Transformer/ViTPose) for more details (specifically issue [#97](https://github.com/ViTAE-Transformer/ViTPose/issues/97)).
 ```bash
 # Initialize the submodules (ViTPose and mmdetection)
 git submodule update --init --recursive
@@ -44,3 +44,15 @@ TODO: Upload weights and data needed to reproduce everything.
 To reproduce the scoring results first run the `evaluate_scoring.py` script to generate the scoring timeline and then `reproduce_scoring_fig.py` to generate the figure.
 
 For position classification results, run the `evaluate_positions.py` script.
+
+
+## Citing
+```
+@inproceedings{hudovernik2022video,
+  author = {Hudovernik, Valter and  Sko{\v{c}}aj, Danijel},
+  title = {{Video-Based Detection of Combat Positions and Automatic Scoring in Jiu-jitsu}},
+  booktitle={Proceedings of the 5th International ACM Workshop on Multimedia Content Analysis in Sports},
+  pages={55--63},
+  year={2022}
+}
+```
