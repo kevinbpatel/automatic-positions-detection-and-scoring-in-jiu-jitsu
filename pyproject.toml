@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bjjtrack"
+version = "0.0.0"
+authors = [
+  { name="Valter Hudovernik", email="ai4bjj@gmail.com" },
+]
+description = "python package for tracking and scoring BJJ matches"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: CC BY-NC 4.0",
+    "Operating System :: Unix",
+    "Environment :: GPU :: NVIDIA CUDA"
+]
+dependencies = [
+    "scikit-learn",
+    "opencv-python",
+    "numpy",
+    "torch",
+    "torchvision",
+]
+
+[project.urls]
+Homepage = "TODO"
+Issues = "TODO"
+
+[tool.setuptools.packages]
+find = { "where" = ["src"] }
